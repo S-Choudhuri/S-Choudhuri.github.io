@@ -8,7 +8,7 @@ body{
 	padding-top:54px;
 	color:#868e96
 }
-@media (min-width:992px){
+@media (min-width:952px){
 	body{
 		padding-top:0;
 		padding-left:17rem
@@ -27,7 +27,7 @@ h6{
 	}
 
 h1{
-	font-size:5rem;
+	font-size:4.5rem;
 	line-height:5rem
 }
 h2{
