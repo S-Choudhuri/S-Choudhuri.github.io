@@ -1,6 +1,6 @@
 # Online Resume
 
-The webpage is built over a [Resume and CV theme](https://startbootstrap.com/template-overviews/resume/) from [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features a fixed sidebar with content sections to build a simple, yet elegant resume. After forking from the repository, I have altered portions of html and css files to match them to my requirements.
+The webpage is built over a [Resume and CV theme](https://startbootstrap.com/template-overviews/resume/) from [Bootstrap](http://getbootstrap.com/), created by [Start Bootstrap](http://startbootstrap.com/). The theme features a fixed sidebar with content sections to build a simple, yet elegant resume. After forking from the repository, I have altered portions of html and css files to match them to my requirements.
 
 ## Status
 
