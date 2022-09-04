@@ -55,6 +55,18 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
         </li>
+	<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#coursework">Relevant Coursework</a>
+        </li>
+	<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#cv">CV</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -344,7 +356,7 @@
         <ul class="fa-ul mb-0">
           <li style="text-align: justify;">
 	    <i class="fa-li fa fa-check"></i>	  
-		  Choudhuri, Sandipan, Riti Paul, Arunabha Sen, Baoxin Li, and Hemanth Venkateswara. "Partial Domain Adaptation Using Selective Representation Learning For Class-Weight Computation." arXiv preprint arXiv:2101.02275 (2021).
+		  Choudhuri, Sandipan, Riti Paul, Arunabha Sen, Baoxin Li, and Hemanth Venkateswara. "Partial Domain Adaptation Using Selective Representation Learning For Class-Weight Computation.".
           <li>
           <li style="text-align: justify;">
             <i class="fa-li fa fa-check"></i>
@@ -374,6 +386,130 @@
     </section>
 
   </div>
+
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">DOMAIN ADAPTATION FRAMEWORKS</h3>
+            <div class="subheading mb-3"></div>
+		  <div>Developed frameworks for image classification tasks under a domain adaptation setup, with constrained and unconstrained label-space
+                       assumptions between the source and target domains (closed-set, partial and open-set scenarios). Built adaptation models for tasks
+                       where access to source data is prohibited during the adaptation process (source-free scenario). Developed generative models for image to-image translation and data augmentation tasks.
+		  </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Python, Pytorch, Keras, Adversarial Learning</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">OBJECT LOCALIZATION</h3>
+            <div class="subheading mb-3"></div>
+		  <div>Formulated an approach for object localization and semantic image segmentation in natural scenes, using image super-pixelization and
+                       deep supervised classification. Context-based information is captured through patches formed by the first and second neighbors superpixels 
+		       (atomic units of an image formed by a perceptual grouping of pixels). These are then mapped to the corresponding object labels
+                       using deep classifier networks. A consensus-based labeling strategy is subsequently employed by ensembling the output probabilities
+                       at different scales through multiple voting routines.
+		  </div>
+		  
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Python, Keras, OpenCV, Matlab, Computer Vision</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">DEEPVID++</h3>
+            <div class="subheading mb-3"></div>
+            <div>The reliability of a deep-learningmodel is majorly dependent on the interpretability of its internal operations. Citing this,the DeepVID
+                 framework is improved to train a basic network using a complex deep-neural model such that its behavior is visually interpretable.
+                 This is accomplished by utilizing variational information to generate neighbors around data instances and training a linear network to
+                 replicate the complex network’s behavior on the generated samples through knowledge distillation.
+	    </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Python, Keras, Flask, D3, JavaScript, Knowledge Distillation</span>
+          </div>
+        </div>
+	      
+	<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">POLYP SEGMENTATION </h3>
+            <div class="subheading mb-3"></div>
+            <div>Developed a polyp segmentation framework by coupling deep-siamese networks with a clustering policy using balanced entropy-based
+                 random walks to identify informative frames from optical colonoscopic video sequences and segment out existing polyps (precursors
+                 to colon cancer).
+	    </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Python, Pytorch, Bio-medical Image Processing</span>
+          </div>
+        </div>
+	
+	<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">SEMANTIC CONTOUR DETECTION</h3>
+            <div class="subheading mb-3"></div>
+            <div>A multi-scale feature-based contour detection approach is presented here from a game-theoretic standpoint. A mixed strategy Nash
+                 Equilibrium is searched in a two-player game (texture and color-based feature extractors acting as players, with strategies involving
+                 extraction at different scales). The objective centers around finding a weighted balance ofthese strategies to minimize the false positives
+                 (highlighting spurious edges) and false negatives (missing salient contours).
+	    </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Python, Keras, C++, OpenCV, Game Theory, Computer Vision</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="teaching">
+      <div class="w-100">
+        <h2 class="mb-5">Teaching Assistantships</h2>
+
+        <div class="subheading mb-3">Arizona State University</div>
+	    <p class="lead mb-5"  style="text-align: justify;"> Data Mining (2019) &bull;
+		Foundation of Algorithms (2018-2021) &bull;
+		Object-Oriented Programming and Data Structures (2017,2018) &bull;
+		Principles of Programming (2017)
+	    </p>
+
+	<div class="subheading mb-3">Jadavpur University</div>
+	    <p class="lead mb-5"  style="text-align: justify;"> Data Structures and Algorithms (2013) &bull;
+		Introduction to Programming (2015)
+	    </p>
+
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="coursework">
+      <div class="w-100">
+        <h2 class="mb-5">Relevant Courses</h2>
+
+        <div class="subheading mb-3"></div>
+	    <p class="lead mb-5"  style="text-align: justify;"> Artificial Intelligence &bull;
+		Deep Learning &bull;
+		Statistical Machine Learning &bull;
+		Image Processing &bull;
+		Natural Language Processing &bull;
+		Data Visualization &bull;
+		Pattern Recognition &bull;
+		Vision &#38; Language Frontiers &bull;
+		Data Mining &bull;
+		Information Assurance &#38; Security &bull;
+		Soft Computing &bull;
+		Game Theory &bull;
+		Mobile Computing
+	    </p>
+
+      </div>
+    </section>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
