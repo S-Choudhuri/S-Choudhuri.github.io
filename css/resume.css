@@ -123,7 +123,6 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
-    overflow: auto;
     width: 100%;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item {
